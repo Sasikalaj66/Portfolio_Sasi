@@ -1,0 +1,88 @@
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#BFA181;
+}
+
+header {
+    background: #0A1828;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #BFA181;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    background-color: #0A1828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #BFA181;
+}
+p{
+    color: #fff;
+}
+
+.paper {
+    margin-bottom: 20px;
+}
+footer {
+    background-color:indianred;
+    color:black;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add more styles as needed */
+/* Add these styles for the image sections */
+
+.profile-image {
+    width: 200px; /* Adjust the value as needed */
+    height: 200px; /* Set the same value as width to make it a square */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#index-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#index-info {
+    max-width: 600px;
+    margin-top: 20px;
+}
