@@ -52,8 +52,12 @@ p{
 .paper {
     margin-bottom: 20px;
 }
+
+.project {
+    margin-bottom: 20px;
+}
 footer {
-    background-color:indianred;
+    background-color:rgb(211, 194, 194);
     color:black;
     text-align: center;
     padding: 1em;

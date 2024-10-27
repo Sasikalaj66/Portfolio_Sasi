@@ -76,9 +76,20 @@ li {
 .paper:hover {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
 
 footer {
-    background-color:hotpink;
+    background-color:#0A1828;
     color:black;
     text-align: center;
     padding: 1em;
@@ -110,6 +121,6 @@ footer {
 }
 
 .info_link h3:hover{
-    background-color:hotpink;
+    background-color:white;
     color:black;
 }
